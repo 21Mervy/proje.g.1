@@ -9,44 +9,4 @@ erfan poorahmad
 mahdi nezhadi moghadam
 Aryan mohammadi
 amirhosein gohar gazi
-amirhossein hojjatfun main() {
-
-    val start = 100
-
-    val end = 999
-
-    println("اعداد اول بین $start تا $end هستند:")
-
-    for (number in start..end) {
-
-        if (isPrime(number)) {
-
-            println(number)
-
-        }
-
-    }
-
-}
-
-fun isPrime(number: Int): Boolean {
-
-    if (number < 2) {
-
-        return false
-
-    }
-
-    for (i in 2 until number) {
-
-        if (number % i == 0) {
-
-            return false
-
-        }
-
-    }
-
-    return true
-
-}
+amirhossein hojjat
